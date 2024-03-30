@@ -1,0 +1,52 @@
+2311502200 -- AYMEN KHAN
+
+JavaBasicsAssignment: Homework_week2/3
+
+Work4: SIMPLE CALCULATOR.
+
+import java.util.Scanner;
+                 
+public class JavaProgram
+{
+    public static void main(String args[])
+  {
+    int num1, num2, toplam, cikarma, carpma;
+    float bolme;
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("iki sayi giriniz : ");
+    num1 = scanner.nextInt();
+    num2 = scanner.nextInt();
+
+    toplam = num1 + num2;
+    cikarma = num1 - num2;
+    carpma = num1 * num2;
+    bolme = num1 / num2;
+
+    System.out.println("Toplam = " + toplam);
+    System.out.println("Farki = " + cikarma);
+    System.out.println("Carpma = " + carpma);
+    System.out.println("Kalan = " + bolme);
+  }
+}
+
+Work3: EVEN OR ODD.
+
+import java.util.Scanner;
+
+public class EvenOdd
+{
+   public static void main(String[] args)
+   {
+      Scanner input = new Scanner(System.in);
+      System.out.print("bir sayi giriniz: ");
+      int num = input.nextInt();
+
+      double ciftsayi = num % 2;
+
+      if(ciftsayi == 0)
+         System.out.println("cift sayi");
+      else
+         System.out.println("tek sayi");   
+   }
+}
