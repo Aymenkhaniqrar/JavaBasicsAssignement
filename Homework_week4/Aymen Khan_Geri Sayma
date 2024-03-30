@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+	// Geri Sayma || Number Decreasement Code
+		   Scanner scanner = new Scanner(System.in);
+		   
+		   int sayi;
+		   System.out.println("Sayi giriniz: ");
+		   sayi = scanner.nextInt();
+		   
+		   if(sayi <= 100)
+		   {
+			   for(int i = sayi; i>=0; i--)
+			   {
+				   System.out.println(+i);
+			   }
+		   }	 
+		 }
+	 }
