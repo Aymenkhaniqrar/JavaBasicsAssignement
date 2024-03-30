@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+	// Yas || Age Sim Code
+		   Scanner scanner = new Scanner(System.in);
+		  
+		           System.out.print("Yasiniz kac? ");
+		           int yas = scanner.nextInt();
+
+		           switch (yas) {
+		           case 0 : System.out.println("dunyaya hosgeldin!");
+		             break;
+		           case 5 : System.out.println("besinci yasina giridniz.");
+		             break;
+		           case 7 : System.out.println("ilk okuldasin.");
+		             break;
+		           case 19 : System.out.println("artik universite ogrencisin.");
+		             break;
+		           default:
+		        	         System.out.println("Yaslandiniz!");
+		        	 break;        
+		           }
+		       }
+		   
+	 }
